@@ -28,5 +28,4 @@ To run this app:
 
 <li>Open in browser: "http://localhost:3000"</li>
 
-
 <h4>Thank you!</h4>
