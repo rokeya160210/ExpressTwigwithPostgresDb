@@ -1,0 +1,26 @@
+[
+    {
+      "name": "Khulna",
+      "tmeph": "  30 &#176;",
+      "tmepl": "  20 &#176;",
+      "text":" "
+    },
+    {
+      "name": "Jessore",
+      "tmeph": "  20 &#176;",
+      "tmepl": "  10 &#176;",
+      "text":" "
+    },
+    {
+      "name": "Satkhira",
+      "tmeph": "  40 &#176;",
+      "tmepl": "  30 &#176;",
+      "text":" "
+    },
+    {
+        "name": "Dhaka",
+        "tmeph": "  50 &#176;",
+        "tmepl": "  10 &#176;",
+        "text":" "
+      }
+  ]

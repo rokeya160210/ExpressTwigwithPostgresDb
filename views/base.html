@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+           
+
+            <link rel='stylesheet' href='/stylesheets/style.css' />
+            
+            
+            <title>{% block title %}{% endblock %} Temprature</title>
+        {% endblock %}
+    </head>
+    <body>
+         <div id="content2">
+         
+            {% block content2 %}
+           
+                <style type="text/css">
+                    .important { color: #336699; align-items: center; }
+                </style>
+                <h1 class="important"></h1>
+
+            <h1 class="important" id="city"> Welcome to  our city</h1>
+
+             <p class="important" id="demo"></p>
+             <!-- <p  id = "demo"></p> -->
+            {% endblock %}
+            <p class="important">
+
+            <input  id="input-city" placeholder="Please enter city here..." /><br>
+
+          <button style="margin-top: 
+          10px;" type="button" onclick="loadDoc()">Show City Name And Temprature</button> </p>
+    
+                    
+         </div>
+        
+        
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+            // const axios = require("axios").default;
+            function loadDoc() {
+                // alert("Hello");
+                // const xhttp = new XMLHttpRequest();
+                // xhttp.onload = function() {
+                //   document.getElementById("demo").innerHTML =http_request.responseText; 
+                // }
+                // xhttp.open("GET", "http://localhost:3000/cd api/get-data",true);
+                
+                // xhttp.send();
+                const input = document.getElementById('input-city').value;
+                console.log('Api request is in progress.');
+                  // let self = this;
+                  axios.get("http://localhost:3000/api/get-data/?name="+input)
+                    .then(function (response) {
+                      if(response.status == 200) {
+                        // self.responseData = response.data;
+                        console.log(response.data);
+                        document.getElementById('city').innerHTML = "Welcome to our "+response.data.city_name;
+                        document.getElementById('demo').innerHTML = "Temperature high = "+response.data.high_temprature+" Temperature Low "+response.data.low_temparature;
+                      } else {
+                        // self.responseData = 'Error';
+                      }
+                    })
+                    .catch(function (error) {
+                      console.log(error);
+                    })
+                    .then(function () {
+                      console.log('Api request done.');
+                    });
+              
+            
+                  }
+        </script>
+    </body>
+</html>

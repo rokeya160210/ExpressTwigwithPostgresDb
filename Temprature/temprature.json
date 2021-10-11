@@ -1,0 +1,26 @@
+[
+    {
+      "name": "Khulna",
+      "temph": "  30 &#176;",
+      "templ": "  20 &#176;",
+      "text":" "
+    },
+    {
+      "name": "Jessore",
+      "temph": "  20 &#176;",
+      "templ": "  10 &#176;",
+      "text":" "
+    },
+    {
+      "name": "Satkhira",
+      "temph": "  40 &#176;",
+      "templ": "  30 &#176;",
+      "text":" "
+    },
+    {
+        "name": "Dhaka",
+        "temph": "  50 &#176;",
+        "templ": "  10 &#176;",
+        "text":" "
+      }
+  ]
