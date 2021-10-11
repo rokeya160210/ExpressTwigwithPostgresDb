@@ -6,6 +6,27 @@
 To run this app:
 
 <li>
-  # Clone the repo using:
-  `git clone https://github.com/rokeya160210/ExpressTwigwithPostgresDb.git`
+  <b>Clone the repo using:</b>
+  git clone https://github.com/rokeya160210/ExpressTwigwithPostgresDb.git
 </li>
+
+<li>
+  <b>Open CMD/TERMINAL in Project Directory</b>
+</li>
+
+
+<li>
+  <b>Install package dependencies:</b>
+  npm install
+</li>
+
+
+<li>
+  <b>Start App:</b>
+  npm start
+</li>
+
+<li>Open in browser: http://localhost:3000</li>
+
+
+<h5>Thank you!</h5>
