@@ -7,7 +7,7 @@ To run this app:
 
 <li>
   <b>Clone the repo using:</b>
-  git clone https://github.com/rokeya160210/ExpressTwigwithPostgresDb.git
+  "git clone https://github.com/rokeya160210/ExpressTwigwithPostgresDb.git"
 </li>
 
 <li>
@@ -17,16 +17,16 @@ To run this app:
 
 <li>
   <b>Install package dependencies:</b>
-  npm install
+  "npm install"
 </li>
 
 
 <li>
   <b>Start App:</b>
-  npm start
+  "npm start"
 </li>
 
-<li>Open in browser: http://localhost:3000</li>
+<li>Open in browser: "http://localhost:3000"</li>
 
 
-<h5>Thank you!</h5>
+<h4>Thank you!</h4>
