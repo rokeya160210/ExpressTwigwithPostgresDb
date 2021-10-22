@@ -27,8 +27,8 @@ To run this app:
 </li>
 
 <li>Open in browser: "http://localhost:3000"</li>
-<li> Database <li>
-  ct{
+<li>database:"citytemprature" <li>
+  ct{<br>
   city_id : integer,<br>
   city_name:character(50),<br>
   low_temparature:character(20)<br>
