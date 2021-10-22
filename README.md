@@ -35,7 +35,9 @@ To run this app:
   high_temprature: character(20)<br>
   "ct_pkey" PRIMARY KEY, btree (city_id)<br>
     "ct_city_name_key" UNIQUE CONSTRAINT, btree (city_name)<br>
-  }
+  }<br>
+  INSERT INTO ct (city_id, city_name, low_temparature,high_temprature)
+VALUES (1, Dhaka, 20,30);
 
 
 <h4>Thank you!</h4>
