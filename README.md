@@ -29,12 +29,12 @@ To run this app:
 <li>Open in browser: "http://localhost:3000"</li>
 <li> Database <li>
   ct{
-  city_id : integer,
-  city_name:character(50),
-  low_temparature:character(20)
-  high_temprature: character(20)
-  "ct_pkey" PRIMARY KEY, btree (city_id)
-    "ct_city_name_key" UNIQUE CONSTRAINT, btree (city_name)
+  city_id : integer,<br>
+  city_name:character(50),<br>
+  low_temparature:character(20)<br>
+  high_temprature: character(20)<br>
+  "ct_pkey" PRIMARY KEY, btree (city_id)<br>
+    "ct_city_name_key" UNIQUE CONSTRAINT, btree (city_name)<br>
   }
 
 
